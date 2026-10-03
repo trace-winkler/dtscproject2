@@ -23,12 +23,12 @@ The decision to use a decision tree was clear when I realized that it could also
 ## Learning Model One, Logistic Regression
 This model was made to estimate the probability that a team's first-round pick would be used on a certain position group (QB, WR, RB, OL, DL, DB). It's supposed to do this by weighing the ESPN positional rankings, the teams pick number, their win percentage, and the team's recent draft history. I decided tha the best setting would be strong regularization with balanced class weights. Even at it's best, the model only got 22.5% accuracy, which is just barely better than the 18.8% baseline. Of the two, this model is the more interpretable one. 
 
-<img width="1050" height="900" alt="confusion_logistic" src="https://github.com/user-attachments/assets/cd638410-bb56-4a6a-bf5d-bd4861d2db3b" />
+<img width="1050" height="400" alt="confusion_logistic" src="https://github.com/user-attachments/assets/cd638410-bb56-4a6a-bf5d-bd4861d2db3b" />
 
 ## Learning Model Two, Decision Tree
 This model was made to split the data of the features until it was able to reach a predicted position. The problem I ran in to was that the tree's roots were very shallow, which was due to the data I provided. This tells me that the data only supports a few reliable patterns, which isn't the result I wanted. At it's best, it had 27.7% accuracy, which mainly came from the tree correctly predicting Offensive Line draft statistics. The decision tree model never once correctly predicted Wide Receiver draft statistics.
 
-<img width="1050" height="900" alt="confusion_tree" src="https://github.com/user-attachments/assets/9711e2d7-31a3-4e7e-ae2b-2e361a34b232" />
+<img width="1050" height="400" alt="confusion_tree" src="https://github.com/user-attachments/assets/9711e2d7-31a3-4e7e-ae2b-2e361a34b232" />
 
 ## Project One Final Statement
 It's hardly an understatement for me to say that I got too ambitious with this project. I tried to categorize human behavior and decisions, which I now realize is a mistake. the beauty of humans is their unpredictability, unless you're a new data scientist trying to make an demanding project. Ever since I first got into football, I understood that NFL teams often "draft for need." Since I started working on this project, I took "draft for need" as a way to measure how teams would draft when their positional groups were put to the test. 
