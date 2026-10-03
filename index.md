@@ -2,13 +2,13 @@
 Project Two is centered around the utilization of machine learning models. I decided to focus on the topic of the NFL, and what position teams are expected to draft using their first round draft pick based on preseason positional rankings.
 
 ## Variables
-#### Team Needs
+### Team Needs
 This variable covers depth chart strength, starter quality, backup quality, injuries, age of starters, contract length, and free agency losses.
-#### Team Draft Tendencies
+### Team Draft Tendencies
 Team Draft Tendencies will cover gm drafting tendencies, coaching scheme, and team philosophy, which I describe as the willingness for teams to draft big hitters over depth players. 
-#### Draft Context
+### Draft Context
 This includes draft pick number, draft pick trading history, and the expected availability of top prospects at the teams draft position. 
-#### Team Performance
+### Team Performance
 Team Performance goes over team record, their offensive and defensive performance, cap space, age of roster, and their defensive scheme type. 
 
 ## Project Two Introduction
