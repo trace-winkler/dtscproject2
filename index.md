@@ -45,13 +45,21 @@ Overall, I am not upset that this project didn't turn out the way I wanted it to
 
 ## Sources
 Berri, D. J., & Simmons, R. (2011). Catching a draft: On the process of selecting quarterbacks in the National Football League amateur draft. Journal of Productivity Analysis, 35(1), 37–49. [https://doi.org/10.1007/s11123-009-0154-6](https://doi.org/10.1007/s11123-009-0154-6)
+
 Hendricks, W., DeBrock, L., & Koenker, R. (2003). Uncertainty, hiring, and subsequent performance: The NFL draft. Journal of Labor Economics, 21, 857–886. [https://doi.org/10.1086/377025](https://doi.org/10.1086/377025)
+
 Massey, C., & Thaler, R. H. (2013). The loser's curse: Decision making and market efficiency in the National Football League draft. Management Science, 59(7), 1479–1495. [https://doi.org/10.1287/mnsc.1120.1657](https://doi.org/10.1287/mnsc.1120.1657)
+
 Pitts, J. D., & Evans, B. (2019). Drafting for success: How good are NFL teams at identifying future productivity at offensive-skill positions in the draft? The American Economist, 64(1), 102–122. [https://doi.org/10.1177/0569434518812678](https://doi.org/10.1177/0569434518812678)
+
 [NFLVerse Python Packages](https://nflverse.nflverse.com/)
+
 [NFL 2026 Preseason Positional Rankings](https://www.espn.com/nfl/story/_/id/49638556/2026-nfl-season-positional-group-best-worst-quarterbacks-cornerbacks-receivers)
+
 [NFL 2025 Preseason Positional Rankings](https://www.espn.com/nfl/story/_/id/45908900/2025-nfl-season-positional-group-best-worst-quarterbacks-cornerbacks-receivers)
+
 [NFL 2024 Preseason Positional Rankings](https://www.espn.com/nfl/insider/story/_/id/40847171/2024-nfl-positional-ranking-team-units-best-worst)
+
 [NFL 2023 Preseason Positional Rankings](https://www.espn.com/nfl/insider/story/_/id/38129445/ranking-2023-nfl-position-groups-best-worst-team-units-quarterback-receiver)
 
 ### Return to the [Project Directory](https://trace-winkler.github.io/project-directory/)
