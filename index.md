@@ -25,10 +25,17 @@ This model was made to estimate the probability that a team's first-round pick w
 
 <img width="450" height="450" alt="confusion_logistic" src="https://github.com/user-attachments/assets/cd638410-bb56-4a6a-bf5d-bd4861d2db3b" />
 
+This multinomial logistic regression model honestly performs pretty well for the offensive line and defensive line classes, with 21 correct predictions for OL, and 16 correct predictions for the DL. Besides this, it gets confused, and gets very confused when it has to identify quarterbacks and wide receivers. When compared to the decision tree, it's my conclusion that it's predictions are distributed much more evenly, however it still has a strong habit when it comes to predicting OL and DL>
+
 ## Learning Model Two, Decision Tree
 This model was made to split the data of the features until it was able to reach a predicted position. The problem I ran in to was that the tree's roots were very shallow, which was due to the data I provided. This tells me that the data only supports a few reliable patterns, which isn't the result I wanted. At it's best, it had 27.7% accuracy, which mainly came from the tree correctly predicting Offensive Line draft statistics. The decision tree model never once correctly predicted Wide Receiver draft statistics.
 
 <img width="450" height="450" alt="confusion_tree" src="https://github.com/user-attachments/assets/9711e2d7-31a3-4e7e-ae2b-2e361a34b232" />
+
+The confusion matrix above shows that the decision tree performs best when identifying the OL class, with 36 correct predictions. However, there is still a lot of confusion between DL and OL, as well as WR and OL. Overall, the model tends to predict OL much more frequently than the other classes, which leads to some misclassification of DL, DL, QB, and WR.
+
+## Model Comparison
+Between the two models, the decision tree appears to perform better overall, in my eyes. I came to this conclusion because it was able to generate more correct predictions, and had better overall recognition of several of the minority classes. Despite this small victory for the decision tree model, it's obvious to me that both models struggle, especially when it comes to distinguishing classes that can be confused with OL.
 
 ## Project One Final Statement
 It's hardly an understatement for me to say that I got too ambitious with this project. I tried to categorize human behavior and decisions, which I now realize is a mistake. the beauty of humans is their unpredictability, unless you're a new data scientist trying to make an demanding project. Ever since I first got into football, I understood that NFL teams often "draft for need." Since I started working on this project, I took "draft for need" as a way to measure how teams would draft when their positional groups were put to the test. 
