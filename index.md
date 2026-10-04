@@ -37,7 +37,7 @@ The confusion matrix above shows that the decision tree performs best when ident
 ## Model Comparison
 Between the two models, the decision tree appears to perform better overall, in my eyes. I came to this conclusion because it was able to generate more correct predictions, and had better overall recognition of several of the minority classes. Despite this small victory for the decision tree model, it's obvious to me that both models struggle, especially when it comes to distinguishing classes that can be confused with OL.
 
-## Project One Final Statement
+## Project Two Final Statement
 It's hardly an understatement for me to say that I got too ambitious with this project. I tried to categorize human behavior and decisions, which I now realize is a mistake. the beauty of humans is their unpredictability, unless you're a new data scientist trying to make an demanding project. Ever since I first got into football, I understood that NFL teams often "draft for need." Since I started working on this project, I took "draft for need" as a way to measure how teams would draft when their positional groups were put to the test. 
 
 The conclusion I have come to is that both models beat the baseline, but only barely, and most picks were still misclassified. The decision tree's accuracy ranged greatly from 18.8% to 41.9% across the years, so I must declare that the results from both models are unstable. The result is a negative one.
