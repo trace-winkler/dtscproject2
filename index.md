@@ -1,6 +1,24 @@
 # Project Two Summary
 Project Two is centered around the utilization of machine learning models. I decided to focus on the topic of the NFL, and what position teams are expected to draft using their first round draft pick based on preseason positional rankings.
 
+The NFL Draft is a complicated and thorough decision-making process in which teams must consider roster needs, player talent, and the availability of prospects. Because of these competing factors, predicting which position an NFL team will select in the frist round is an incredibly challenging machine-learning problem.
+
+My research question for this project is: "Can machine-learning models accurately predict which position an NFL team will select in the first round of the NFL Draft based on preseason positional group rankings?"
+
+I chose this question because NFL teams consistently discuss drafting for position need, but a team's eventual draft selection may depend on other factors, such as draft position, team performance, organization tendencies, and the players available. Previous research has also shown that NFL draft decisions involve uncertainty, and that teams do not always make decisions that maximize future performance (Berri & Simmons, 2011; Hendricks et al., 2003; Massey & Thaler, 2013).
+
+## Context and Supporting Research
+NFL draft decision have been studied extensively because teams are required to mkae hihg-stakes deicsions with limited information about amateur players. Berri and Simmons (2011) examined the selection of quarterbacks, and found evidence that the draft process harbors a certain amount of uncertainty. 
+
+Massey and Thaler (2013) examined decision-making and market effeciency in the NFL draft, and found even more evidence that teams tend to make systematic erros when evaluation drafft prospects. I believe that this research is relevant to this project because it demonstrates that draft decsions are not straightforward responses to available information. 
+
+Pitts and Evans (2019) focused on how effectively NFL teams are able to identify future productivity at offensive-skill positions. Their findings provide additional evidence that reinforces my belief that predicting the future value of draft selections is incredibly difficult. 
+
+When put together, this research supports the idea that NFL draft deicisions are influcned by uncertaiinty, imperfect infromation, and human decision-making, which are all unreliable. These are the characteristics that make the NFL draft incredibly interesting, and a great environment for testing whether machine-learning models can identify reliable patterns.
+
+## Data Preparation
+Before I began training the models, I prepared the data set for machine learning. I began by separating the target variable from the predictor variables. I then processed the predictor variables so that they could be used by the machine-learning models. For the logistic regression modle, scaling was the main focus because logistic regression is incredibly sensitive. I also made sure o check for missing values, duplicatee oversvations, and problematic variables before training the models.
+
 ## Variables
 ### Team Needs
 This variable covers depth chart strength, starter quality, backup quality, injuries, age of starters, contract length, and free agency losses.
@@ -19,6 +37,9 @@ For this project, I had to select two machine learning models, and due to the ca
 A multinomial logistic regression model is applicable to my vision for this project because it's a statistical method that is commonly used to predict the probability of a categorical outcome that has more than two categories. 
 
 The decision to use a decision tree was clear when I realized that it could also process categorical data. Decision trees can handle categorical data, and they are also able to produce categorical outputs. On top of that, they also capture nonlinear relationships very well, and they're easy to visualize and interpret. 
+
+## Baseline Performance
+Before evaluating the machine-learning models, I established a baseline accuracy of 18.8%.
 
 ## Learning Model One, Logistic Regression
 This model was made to estimate the probability that a team's first-round pick would be used on a certain position group (QB, WR, RB, OL, DL, DB). It's supposed to do this by weighing the ESPN positional rankings, the teams pick number, their win percentage, and the team's recent draft history. I decided tha the best setting would be strong regularization with balanced class weights. Even at it's best, the model only got 22.5% accuracy, which is just barely better than the 18.8% baseline. Of the two, this model is the more interpretable one. 
@@ -47,6 +68,9 @@ To answer the research question, no. The preseason positional rankings could not
 While I am disappointed, I do feel like I learned a lot about data science from this project. Although the models run, and the code works, the results are weak. Despite the lack of result strength, the models successfully answer my research question. Using preseason positional rankings, a decision tree, and a multinomial logistic regression model, I was unable to predict first round draft choices accurately. 
 
 Overall, I am not upset that this project didn't turn out the way I wanted it to. While my grade on the assignment might showcase how well it went, I am proud that I was able to learn from this experience. I plan on using this experience to think critically about the data I use from this point on.
+
+## Consequences of Incorrect Predictions
+The consequences of an incorrect prediction for this project are very low because the model is being used for a school project rather than actual NFL decisions. However, if a similar model were to be used in a real-world setting, and had the ability to influence draft decisions, then I would be worried. This model should not be used or treated as a replacement for human judgement. 
 
 ## Sources
 Berri, D. J., & Simmons, R. (2011). Catching a draft: On the process of selecting quarterbacks in the National Football League amateur draft. Journal of Productivity Analysis, 35(1), 37–49. [https://doi.org/10.1007/s11123-009-0154-6](https://doi.org/10.1007/s11123-009-0154-6)
