@@ -46,8 +46,6 @@ To answer the research question, no. The preseason positional rankings could not
 
 While I am disappointed, I do feel like I learned a lot about data science from this project. Although the models run, and the code works, the results are weak. Despite the lack of result strength, the models successfully answer my research question. Using preseason positional rankings, a decision tree, and a multinomial logistic regression model, I was unable to predict first round draft choices accurately. 
 
-I want to fully disclose that I relied upon the help of AI for this project. It helped me map out the project, and also assisted with debugging. The majority of the code was planned out and written by me, but I did use Claude Sonnet 5.5 in order to help me clean up my code and help me gain a deeper understanding of the point of the code. 
-
 Overall, I am not upset that this project didn't turn out the way I wanted it to. While my grade on the assignment might showcase how well it went, I am proud that I was able to learn from this experience. I plan on using this experience to think critically about the data I use from this point on.
 
 ## Sources
