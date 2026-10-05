@@ -91,8 +91,10 @@ Pitts, J. D., & Evans, B. (2019). Drafting for success: How good are NFL teams a
 
 [NFL 2023 Preseason Positional Rankings](https://www.espn.com/nfl/insider/story/_/id/38129445/ranking-2023-nfl-position-groups-best-worst-team-units-quarterback-receiver)
 
-## Data
+## Data and Code
 Check out the data collected [here](https://github.com/trace-winkler/dtscproject2/tree/main/data). It included team win percentages, their ESPN positional rankings, and NFL teams first round picks. 
+
+Check out the code [here](https://github.com/trace-winkler/dtscproject2/tree/main/code).
 
 ### Return to the [Project Directory](https://trace-winkler.github.io/project-directory/)
 ### Return to the [Homepage](https://trace-winkler.github.io/data-science-portfolio/)
